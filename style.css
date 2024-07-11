@@ -88,14 +88,21 @@
         padding: 10rem 9% 2rem;
     }
 
-    .home {
-        display: flex;
-        align-items: center;
-        padding: 0 9%;
-        background: url('images/Untitled-1.png') no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
+        .home {
+            display: flex;
+            align-items: center;
+            padding: 0 9%;
+            background: url('images/hk.png') no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    
+        @media (max-width: 800px) {
+            .home {
+                background: none;
+            }
+        }
+    
 
     .home-content {
         max-width: 60rem;
